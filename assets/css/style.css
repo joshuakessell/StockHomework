@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+#label {
+    text-align: center;
+    color: white;
+    font: 'Bai Jamjuree', sans-serif;
+    font-size: 12pt;
+}
+
+#infoArea {
+    margin-top:30px;
+    text-align: left;
+    color: white;
+    font: 'Bai Jamjuree', sans-serif;
+    font-size: 10pt;
+}
+
+body {
+    background-color: rgb(45, 52, 58);
+    
+}
+
+
+.stock {
+    margin: 2px;    
+}
+
+#buttonArea {
+    width: 100%;
+    margin: 2px;
+    padding: 2px;
+    display: inline-block;
+}
+
+#inputArea {
+    margin-top: 50px;
+}
+
+#add-stock {
+    margin:5px;
+}

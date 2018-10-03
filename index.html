@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>StockViewer</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree" rel="stylesheet">
+
+
+</head>
+<body>
+    
+    <div class="container-fluid" id="label">
+        <label>Select a stock.</label>
+        <div class="row" id="buttonArea">
+        </div>
+    </div>
+    <div class="container-fluid" id="news">
+        <div class="col-sm-12" id="infoArea">
+        </div>
+    </div>
+    <div class="container-fluid" id="label">
+        <div class="col-sm-12" id="inputArea">
+            <form id="stock-form">
+                <label for="stock-input">Add a Stock Symbol</label>
+                <input type="text" id="stock-input"><br>
+
+                <!-- Button triggers new stock to be added -->
+                <input id="add-stock" type="submit" value="Add">
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/stocks.js"></script>
+
+</body>
+</html>
